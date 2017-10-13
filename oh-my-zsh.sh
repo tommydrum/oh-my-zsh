@@ -56,7 +56,7 @@ fi
 
 # Save the location of the current completion dump file.
 if [ -z "$ZSH_COMPDUMP" ]; then
-  ZSH_COMPDUMP="${ZDOTDIR:-${HOME}}/.zcompdump-${SHORT_HOST}-${ZSH_VERSION}"
+  ZSH_COMPDUMP="${ZDOTDIR:-${HOME}}/.cache/zsh/zcompdump-${SHORT_HOST}-${ZSH_VERSION}"
 fi
 
 if [[ $ZSH_DISABLE_COMPFIX != true ]]; then
